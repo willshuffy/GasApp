@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "dev.salgino.gasapp"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+
+    implementation('com.amitshekhar.android:android-networking:1.0.2') {
+        exclude group: 'com.android.support'
+    }
+
+    implementation 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+    implementation 'com.github.rehacktive:waspdb:1.1.1'
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'com.ss.bannerslider:bannerslider:2.0.0'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+
+//    implementation('com.google.android.gms:play-services:12.0.0') {
+//        exclude group: 'com.android.support'
+//    }
+    implementation 'com.google.android.gms:play-services-places:16.0.0'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+
+    //implementation 'com.google.maps.android:android-maps-utils:0.5'
+    //implementation 'net.sharewire:google-maps-clustering:0.1.3'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+    implementation('com.squareup.retrofit2:converter-gson:2.3.0') {
+        exclude module: 'retrofit'
+    }
+
+    implementation 'com.github.IntruderShanky:Sectioned-RecyclerView:2.1.1'
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+}
+//apply plugin: 'com.google.gms.google-services'

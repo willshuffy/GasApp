@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activities.MapsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/map"
+            tools:context=".activities.MapsActivity"
+            android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_track"
+            app:backgroundTint="@color/md_red_800"
+            android:elevation="0dp"
+            app:elevation="0dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_graph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_algorithm"
+            app:backgroundTint="@color/md_teal_800"
+            android:elevation="0dp"
+            app:elevation="0dp"
+            android:layout_marginTop="8dp"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_return_route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home"
+            app:backgroundTint="@color/colorPrimaryDark"
+            android:layout_marginTop="8dp"
+            app:elevation="0dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

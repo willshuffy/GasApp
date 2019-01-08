@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">Gas App</string>
+    <string name="google_maps_key">AIzaSyBB9C3YaCbUJHRgiLhJf_Asn4KA8nSbUn0</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="save">Simpan</string>
+    <string name="update">Update</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="new_password">Password Baru</string>
+    <string name="update_password">Perbarui Password</string>
+    <string name="name">Nama Lengkap</string>
+    <string name="station_name">Nama Pangkalan</string>
+    <string name="hp">No. HP</string>
+    <string name="address">Alamat</string>
+    <string name="district">Kecamatan</string>
+    <string name="zone_code">Kode Zona</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="birthday">Tanggal Lahir</string>
+    <string name="forgot_password">Lupa sandi</string>
+    <string name="information">Informasi</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="employee_detail">Detil Pegawai</string>
+    <string name="add_employee">Tambah Pegawai</string>
+    <string name="add_station">Tambah Pangkalan</string>
+    <string name="employee_data">Data Pegawai</string>
+    <string name="change_password">Ubah Password</string>
+    <string name="exit_question">Anda yakin ingin keluar?</string>
+    <string name="delete_question">Anda yakin ingin menghapus?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="logout">Keluar</string>
+    <string name="more">Lainnya</string>
+    <string name="search">Cari product</string>
+    <string name="account">Akun</string>
+    <string name="graph">Grafik</string>
+    <string name="remarks">Keterangan</string>
+    <string name="matrix">Matriks</string>
+    <string name="zone">Zona</string>
+    <string name="conclusion">Kesimpulan</string>
+
+    <string name="dont_have_account">Belum punya akun? Silahkan daftar</string>
+    <string name="have_account">Sudah punya akun? Silahkan login</string>
+
+    <string name="select_driver">Pilih Sopir</string>
+    <string name="select_station">Pilih Pangkalan</string>
+    <string name="driver_required">Sopir wajib dipilih</string>
+    <string name="email_required">Email wajib diisi</string>
+    <string name="password_required">Password wajib diisi</string>
+    <string name="name_required">Nama wajib diisi</string>
+    <string name="mobile_required">No. HP wajib diisi</string>
+    <string name="id_required">Id masih kosong</string>
+    <string name="address_required">Alamat wajib diisi</string>
+    <string name="birthday_required">Tanggal lahir wajib diisi</string>
+    <string name="position_required">Posisi wajib dipilih</string>
+    <string name="gender_required">Jenis kelamin wajib dipilih</string>
+    <string name="station_name_required">Nama pangkalan wajib diisi</string>
+    <string name="district_required">Kecamatan wajib diisi</string>
+    <string name="latitude_required">Latitude wajib diisi</string>
+    <string name="longitude_required">Longitude wajib diisi</string>
+    <string name="zone_required">Zona wajib diisi</string>
+    <string name="new_password_required">Password baru wajib diisi</string>
+    <string name="new_password_again_required">Ulangi password baru wajib diisi</string>
+    <string name="new_password_again">Ulangi Password Baru</string>
+    <string name="new_password_did_not_match">Password baru tidak sama</string>
+    <string name="new_password_is_same">Password baru tidak boleh sama dengan password lama</string>
+    <string name="only_be_changed_by_the_owner">Password hanya dapat diubah oleh pemilik akun</string>
+    <string name="cancel">Batal</string>
+    <string name="delete">Hapus</string>
+    <string name="error">Error</string>
+    <string name="wrong_username_password">Email atau sandi salah</string>
+    <string name="wrong_password">Sandi salah</string>
+
+    <string name="please_wait">Silahkan tunggu...</string>
+    <string name="fetch_data_from_server">Menyambungkan ke server..</string>
+    <string name="error_msg">Sorry! Couldn\'t fetch movies.</string>
+    <string name="btn_retry">Retry</string>
+    <string name="error_msg_no_internet">Not connected to internet</string>
+    <string name="error_msg_timeout">The server took too long to respond</string>
+    <string name="error_msg_unknown">An unexpected error occurred</string>
+    <string name="tap_to_reload">Tap to reload</string>
+
+    <string name="no_data">No data available</string>
+
+    <!--permission-->
+    <string name="explain_permission">Aplikasi ini membutuhkan beberapa permintaan izin, Izinkan semua permintaan</string>
+    <string name="permission_not_granted">Permintaan tidak diizinkan</string>
+    <string name="all_permission_not_granted">Semua permintaan tidak diizinkan </string>
+    <string name="write_external_permission_not_granted">Tulis permintaan penyimpanan eksternal yang tidak diizinkan</string>
+    <string name="read_external_permission_not_granted">Baca permintaan penyimpanan eksternal yang tidak diizinkan</string>
+    <string name="camera_permission_not_granted">Permintaan kamera tidak diizinkan</string>
+    <string name="location_permission_not_granted">Permintaan akses lokasi tidak diizinkan</string>
+    <string name="auto_start_not_granted">Permintaan akses mulai otomatis tidak diizinkan</string>
+    <string name="all_permission_granted">Semua permintaan diizinkan</string>
+
+    <!--foto-->
+    <string name="load_from_uri">Load from Uri</string>
+    <string name="convert_uri_to_file">Convert Uri to file</string>
+    <string name="convert_uri_to_bitmap">Convert Uri to Bitmap</string>
+    <string name="base64_info">data:image/jpeg;base64,</string>
+
+    <!--menu-->
+    <string name="maps">Maps</string>
+    <string name="location">Data Pangkalan</string>
+    <string name="employee">Data Pegawai</string>
+    <string name="about">Tentang</string>
+    <string name="assignment">Penugasan</string>
+    <string name="data_assignment">Data Penugasan</string>
+
+    <string name="press_twice">Tekan 2 kali untuk keluar</string>
+    <string name="help">Bantuan</string>
+
+
+    <string name="help_string">
+        <![CDATA[
+        <b><p>Cara Penggunaan</p></b>
+
+        <div style="margin-left:-20px;">
+            <ol start="1">
+                <li>Login</li>
+            </ol>
+        </div>
+
+        <div style="margin-left:-2px;margin-top:-10px;">
+            <ul type="square">
+                <li>Mengisi email dan password</li>
+            </ul>
+        </div>
+
+
+
+        <div style="margin-left:-20px;">
+            <ol start="2">
+                <li>Menu utama</li>
+            </ol>
+        </div>
+
+        <div style="margin-left:-2px;margin-top:-10px;">
+            <ul type="square">
+                <li>Super admin</li>
+                Dapat mengakses keseluruhan aplikasi seperti penginputan data pegawai,penginputan data pangkalan, maps, dan data penugasan.
+                <li>Supir</li>
+                Supir hanya dapat mengakses maps, data pangkalan dan data penugasan.
+            </ul>
+        </div>
+
+        <div style="margin-left:-20px;">
+            <ol start="3">
+                <li>Menu maps</li>
+            </ol>
+        </div>
+
+        <div style="margin-left:-2px;margin-top:-10px;">
+            <ul type="square">
+                <li>Menu maps menampilkan keseluruhan titik-titik pangkalan.</li>
+            </ul>
+        </div>
+
+        <div style="margin-left:-20px;">
+            <ol start="4">
+                <li>Menu pangkalan</li>
+            </ol>
+        </div>
+
+        <div style="margin-left:-2px;margin-top:-10px;">
+            <ul type="square">
+                <li>Menu pangkalan menampilkan data-data pangkalan seperti alamat, kecamatan, koordinat, nama pangkalan dan kode zona pangkalan.</li>
+                <li>Untuk menambahkan pangkalan klik- tambah pangkalan - klik telusuri – pilih lokasi anda – pilih – isi nama pangkalan dan kode zona pangkalan – simpan.</li>
+            </ul>
+        </div>
+
+        <div style="margin-left:-20px;">
+            <ol start="5">
+                <li>Menu pegawai</li>
+            </ol>
+        </div>
+
+        <div style="margin-left:-2px;margin-top:-10px;">
+            <ul type="square">
+                <li>Menu pegawai menampilkan data – data pegawai seperti posisis / jabatan, nama lengkap, tanggal lahir, jenis kelamin alamat no.hp, email, dan password.</li>
+                <li>Untuk menambahkan pegawai klik- tambah pegawai pilih posisi karyawan- isi nama lengkap, tanggal lahir, jenis kelamin alamat no.hp, email, dan password – simpan.</li>
+            </ul>
+        </div>
+
+        <div style="margin-left:-20px;">
+            <ol start="6">
+                <li>Menu penugasan</li>
+            </ol>
+        </div>
+
+        <div style="margin-left:-2px;margin-top:-10px;">
+            <ul type="square">
+                <li>Menu penugasan menampilkan nama-nama pangkalan, nama-nama supir, maps, jalur distribusi, keterangan matrix dan kesimpulan urutan pangkalan yang akan di distribusi.</li>
+                <li>Untuk melihat jalur distribusi klik nama supir maka akan tampil maps jalur distribusi, dan untuk melihat matrix nya klik icon di pojok kanan bawah.</li>
+                <li>Untuk menambah pangkalan yg akan di distribusi klik data penugasan – pilih supir – pilih pangkalan yang akan di distribusi – klik update, untuk melihat nya kembali ke tahap kedua.</li>
+            </ul>
+        </div>
+        ]]>
+    </string>
+</resources>
